@@ -1,4 +1,9 @@
 .env
 __pycache__/
 targetapp/__pycache__/
-
+targetapp/tests/__pycache__/
+.pytest_cache/
+targetapp/tests/img_error_test.jpeg
+targetapp/tests/img_ok_extractImg_test.jpg
+targetapp/tests/img_ok_processImg_test.jpg
+targetapp/tests/img_ok_test.jpeg
