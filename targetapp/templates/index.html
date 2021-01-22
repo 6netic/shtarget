@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="visual recognition">
+  <meta name="author" content="Eric Bresler">
+  <title>Target App</title>
+
+  <!-- CSS file -->
+  <link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <div id="header">
+    <a class="navbar-brand js-scroll-trigger" href="{{ url_for('index') }}"><h1>Ciblerie</h1></a>
+  </div>
+  
+  <div id="descript">
+    <h2>Calcul des points sur cible de 10 mètres</h2>
+      <p>Choisir l'image sur laquelle effectuer le calcul des points.</p>     
+  </div>
+
+  <div id="message"></div>
+
+  <div id="formBlock">
+    <div id="formular">
+        <form id="myForm" name="myForm">        
+              <label><p style="font-size: 1.4rem;">Sélection de l'image</p></label>             
+              <input type="file" name="srcfile" id="srcfile" accept="image/*">
+              <p><button type="submit">Calcul des points</button></p>
+        </form>
+    </div>
+  </div>
+  <div id="picture"></div>
+
+  <div id="footer">
+      <p class="m-0 text-center text-white">
+        Eric Bresler - Source : https://github.com/6netic/shtarget.git
+      </p>
+  </div>
+
+  <!-- Javascript file -->
+  <script src="{{ url_for('static', filename='js/targetapp.js') }}"></script>
+
+</body>
+
+</html>
+
+
+
