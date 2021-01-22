@@ -1,0 +1,252 @@
+@font-face {
+    font-family: 'AlfaSlabOne-Regular';
+    src: url('AlfaSlabOne-Regular.ttf');
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+html { 
+	height: 100%;
+	background-color: #fefbe9;
+}
+
+body { 
+	min-height: 100%;
+	margin: 0;
+}
+
+#header {
+	width: 100%;
+	height: 4rem;
+	display: block;
+	position: absolute;
+	top: 0rem;
+	background-color: #343a40;
+	color: white;
+	z-index: 2;
+	font-family: 'AlfaSlabOne-Regular';
+	padding-left: 4rem;
+}
+
+#descript {
+	width: 100%;
+	height: 6.5rem;
+	background-color: #007bff;
+	display: block;
+	position: absolute;
+	top: 0rem;
+	color: white;
+	padding-top: 5rem;
+	text-align: center;
+	font-family: 'copperplate', 'Verdana', 'Sans-Serif';
+	font-size: 0.7rem;
+}
+
+#formular {
+	width: 95%;
+	background-color: #f8f9fa;
+	margin-top: 3rem;
+	display: block;
+	position: relative;
+	top: 14rem;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 20px;
+	border: 1px #9c9c9c solid;
+}
+
+#srcfile {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  color: #707070;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 1.1rem;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+#footer {
+  width: 100%;
+  height: 2rem;
+  padding-top: 0.4rem;
+  padding-bottom: 0.6rem;
+  background-color: #343a40;
+  display: block;
+  position: relative;
+  margin-top: 30%;
+  bottom: 0;
+  color: white;
+  text-align: center;
+  font-family: 'Verdana', 'Sans-Serif';
+  font-size: 0.7rem;
+}
+
+#picture {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding-top: 14rem;
+}
+
+#message {
+  font-family: 'Verdana', 'Sans-Serif';
+  font-size: 1rem;
+  display: block;
+  position: relative;
+  top: 14rem;
+  color: red;
+  text-align: center;
+  width: 100%;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 4px;
+    border: 2px #9c9c9c solid;
+}
+
+#myForm {
+	text-align: center;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	font-family: 'Papyrus', 'Arial', 'Monaco';
+	font-size: 1.8rem;
+	font-weight: bold;
+}
+
+button {
+  background-color: #007bff;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: 'Verdana', 'Sans-Serif';
+
+}
+
+/* --------- MEDIA QUERIES ----------- */
+@media (min-width: 576px) {
+  #footer {
+	font-size: 0.8rem;
+  }
+  #header {
+  	padding-left: 4.5rem;
+  }
+  #descript {
+  	font-size: 1rem;
+  	height: 7.5rem;
+  }
+  #formular {
+  	width: 80%;
+  	top: 14.6rem;
+  }
+  #srcfile {
+	font-size: 1.2rem;
+  }
+  #message {
+    font-size: 1.1rem;
+    top: 15rem;
+  }
+  #picture {
+    width: 100%;
+    padding-top: 14rem;
+  }
+}
+@media (min-width: 768px) {
+  #footer {
+	font-size: 0.8rem;
+  }
+  #header {
+  	padding-left: 5rem;
+  }
+  #descript {
+  	font-size: 1.15rem;
+  	height: 8.2rem;
+  }
+  #formular {
+  	width: 70%;
+  	top: 15.6rem;
+  }
+  #srcfile {
+	font-size: 1.2rem;
+  }
+  #message {
+    font-size: 1.2rem;
+    top: 16rem;
+  }
+  #picture {
+    width: 50%;
+    padding-top: 14rem;
+  }
+}
+@media (min-width: 992px) {
+  #footer {
+	font-size: 0.8rem;
+  }
+  #header {
+  	padding-left: 5.5rem;
+  }
+  #descript {
+  	font-size: 1.3rem;
+  	height: 9rem;
+  }
+  #formular {
+  	width: 60%;
+  	top: 16.9rem;
+  }
+  #srcfile {
+	font-size: 1.2rem;
+  }
+  #message {
+    font-size: 1.3rem;
+    top: 17rem;
+  }
+  #picture {
+    width: 50%;
+    padding-top: 17rem;
+  }
+}
+@media (min-width: 1200px) {
+  #footer {
+	font-size: 0.8rem;
+  }
+  #header {
+  	padding-left: 6rem;
+  }
+  #descript {
+  	font-size: 1.4rem;
+  	height: 10rem;
+  }
+  #formular {
+	width: 50%;
+	top: 18rem;
+  }
+  #srcfile {
+  font-size: 1.2rem;
+  }
+  #message {
+    font-size: 1.5rem;
+    top: 18rem;
+  }
+  #picture {
+    width: 50%;
+    padding-top: 17rem;
+  }
+}
+
+
+
+
+
