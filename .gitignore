@@ -7,3 +7,7 @@ targetapp/tests/img_error_test.jpeg
 targetapp/tests/img_ok_extractImg_test.jpg
 targetapp/tests/img_ok_processImg_test.jpg
 targetapp/tests/img_ok_test.jpeg
+targetapp/static/img/o.txt
+targetapp/static/in/o.txt
+targetapp/static/out/o.txt
+
