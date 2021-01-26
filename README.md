@@ -52,6 +52,8 @@ https://imgbox.com/VOoG3AmO ->(img_ok_processImg_test.jpg)
 
 https://imgbox.com/W5NdAYRY ->(img_ok_test.jpeg)
 
+To see the website working, just go to the following url :
 
+https://target-ebres.herokuapp.com/
 
 
